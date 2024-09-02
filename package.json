@@ -1,7 +1,6 @@
 {
   "name": "create-clairo",
   "version": "0.2.0",
-  "main": "src/index.ts",
   "module": "index.ts",
   "scripts": {
     "prepublishOnly": "bun build ./src/index.ts --target=bun --outfile=dist/index.js"
@@ -16,7 +15,6 @@
   "bin": {
     "create-clairo": "dist/index.js"
   },
-
   "files": ["dist/"],
   "type": "module"
 }
