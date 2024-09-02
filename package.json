@@ -11,8 +11,8 @@
     "typescript": "^5.0.0"
   },
   "bin": {
-    "create-clairo": "create-clairo.ts"
+    "create-clairo": "dist/index.js"
   },
-  "files": ["create-clap.ts"],
+  "files": ["dist/"],
   "type": "module"
 }
