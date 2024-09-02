@@ -1,7 +1,7 @@
 {
   "name": "create-clairo",
   "version": "0.2.0",
-  "main": "create-clap.ts",
+  "main": "src/index.ts",
   "module": "index.ts",
   "scripts": {
     "prepublishOnly": "bun build ./src/index.ts --target=bun --outfile=dist/index.js"
