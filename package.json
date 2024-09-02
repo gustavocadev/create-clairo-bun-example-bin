@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "main": "create-clap.ts",
   "module": "index.ts",
+  "scripts": {
+    "prepublishOnly": "bun build ./src/index.ts --target=bun --outfile=dist/index.js"
+  },
   "devDependencies": {
     "@clack/prompts": "^0.7.0",
     "@types/bun": "latest"
@@ -13,6 +16,7 @@
   "bin": {
     "create-clairo": "dist/index.js"
   },
+
   "files": ["dist/"],
   "type": "module"
 }
